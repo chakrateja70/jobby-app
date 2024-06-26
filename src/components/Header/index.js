@@ -43,7 +43,7 @@ const Header = props => {
                 className="nav-mobile-btn"
                 onClick={onClickLogout}
               >
-                <FiLogOut />
+                <FiLogOut aria-label="close"/>
               </button>
             </li>
           </ul>
